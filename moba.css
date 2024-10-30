@@ -1,0 +1,64 @@
+.moba {
+    padding-right: 10px;
+    max-width: 500px;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+input, select {
+    width: 100%;
+    max-width: 500px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+}
+
+input[type=submit] {
+    background-color: #bbdbc1;
+    height: 3em !important;
+    -webkit-appearance: none;
+}
+
+.messages {
+    display: none;
+    border: 1px dashed #90AB95;
+    color: #90AB95;
+    opacity: 0.7;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+.errors {
+    display: none;
+    border: 1px dashed indianred;
+    color: indianred;
+    opacity: 0.7;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+input, button, select, textarea {
+    -webkit-border-radius: 5px !important;
+    border-radius: 5px;
+}
+
+.moba__url .url__area {
+    height: 40px;
+    font-size: 13px;
+
+}
+
+.moba__url .url__button {
+    background-color: #bbdbc1;
+    width: 150px;
+}
+
+@media (max-device-width: 768px) {
+    .moba__url {
+        display: none;
+    }
+}
